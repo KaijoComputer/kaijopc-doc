@@ -5,12 +5,18 @@ export default defineConfig({
     title: "海城コンピューター部公式ドキュメント",
     description: "海城コンピューター部の部員向けドキュメント",
     markdown: {
+        config: (md) => {},
         lineNumbers: true,
     },
     themeConfig: {
         docsDir: "docs",
         sidebar: {
-            "/": "auto",
+            "/introduction/": [
+                {
+                    text: "プログラミング",
+                    link: "/introduction/programming",
+                },
+            ],
         },
         nav: [
             { text: "プログラミング", link: "/programming/" },
