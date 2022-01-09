@@ -1,8 +1,9 @@
 import { defineConfig } from "vitepress"
+import "dotenv/config"
 
 export default defineConfig({
     lang: "ja-JP",
-    title: "海城コンピューター部公式ドキュメント",
+    title: "公式ドキュメント",
     description: "海城コンピューター部の部員向けドキュメント",
     markdown: {
         config: (md) => {},
@@ -13,8 +14,16 @@ export default defineConfig({
         sidebar: {
             "/introduction/": [
                 {
+                    text: "ようこそ！",
+                    link: "/introduction/",
+                },
+                {
                     text: "プログラミング",
                     link: "/introduction/programming",
+                },
+                {
+                    text: "このサイトについて",
+                    link: "/introduction/site",
                 },
             ],
         },
@@ -32,6 +41,10 @@ export default defineConfig({
         repo: "KaijoComputer/kaijopc-doc",
         docsBranch: "main",
         lastUpdated: "最終更新",
-        logo: "/logo.webp",
+        logo: "/logo/full-logo.svg",
+        algolia: {
+            apiKey: process.env.ALGOLIA_API_KEY,
+            indexName: "page",
+        },
     },
 })

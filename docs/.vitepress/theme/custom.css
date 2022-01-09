@@ -1,0 +1,9 @@
+:root {
+    --c-brand: #ffa409;
+    --c-brand-light: #ffb609;
+}
+
+.nav-bar .logo {
+    height: 42px;
+    margin-right: 6px;
+}

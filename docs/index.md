@@ -1,7 +1,7 @@
 ---
 home: true
 
-heroImage: /logo.webp
+heroImage: /logo/logo.webp
 heroAlt: 海城コンピューター部公式ドキュメント
 heroText: 海城コンピューター部公式ドキュメント
 tagline: 部員向けの解説書
