@@ -8,7 +8,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "markdown-it-code-copy": "^0.1.1",
+    "@mdi/font": "^6.5.95",
     "vitepress": "^0.21.4"
   }
 }
