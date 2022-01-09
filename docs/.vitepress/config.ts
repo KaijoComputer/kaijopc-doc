@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress"
 
 export default defineConfig({
     lang: "ja-JP",
-    title: "海城コンピューター部公式ドキュメント",
+    title: "公式ドキュメント",
     description: "海城コンピューター部の部員向けドキュメント",
     markdown: {
         config: (md) => {},
@@ -32,6 +32,11 @@ export default defineConfig({
         repo: "KaijoComputer/kaijopc-doc",
         docsBranch: "main",
         lastUpdated: "最終更新",
-        logo: "/logo.webp",
+        logo: "/full-logo.svg",
+        algolia: {
+            apiKey: "9081e97c2ab8105bf5f3c5fb1e869485",
+            indexName: "page",
+            // placeholder: "",
+        },
     },
 })
