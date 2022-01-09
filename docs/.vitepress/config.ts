@@ -3,7 +3,7 @@ import "dotenv/config"
 
 export default defineConfig({
     lang: "ja-JP",
-    title: "公式ドキュメント",
+    title: "ドキュメント",
     description: "海城コンピューター部の部員向けドキュメント",
     markdown: {
         config: (md) => {},
