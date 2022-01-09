@@ -1,41 +1,18 @@
-# Hello Kaijo Computer Club! :tada:
+# Hello Kaijo Computer Club Members! :wave:
 
-## これは h2
+こんにちは、コンピューター部員の皆さん。
 
-### これは h3
+このサイトではコンピューター部で使うソフトウェアやツール、プログラミング言語の解説をしています。
 
-**Bold なテキスト**
+## 使い方
 
-通常テキスト
+上のタブにあるように、大きなカテゴリとしては[プログラミング](/programming/)、[3DCG](/3dcg/)、[音楽制作](/music/)のように分かれており、その中に[C++](/programming/c++/)や[Blender](/3dcg/blender/)などに細かく分かれています。
 
-```js
-// example.js
+それぞれカテゴリのタブをクリックすると一覧があります。また、右上の検索ボタンから検索することもできます。
 
-const hoge = () => {
-    console.log("これはコードブロック")
-}
-```
+また、[ヘルプ]()では用語の解説や普遍的な問題の解説が載っています。
 
-::: tip
-This is a tip
-:::
+## 編集する
 
-::: info
-This is an info box
-:::
-
-## H2 だよ
-
-::: warning
-This is a warning
-:::
-
-::: danger
-This is a dangerous warning
-:::
-
-::: details
-ほぼ Zenn と同じやつ
-:::
-
-## 下の方の h2
+このドキュメントは[GitHub](https://github.com/KaijoComputer/kaijopc-doc)にてオープンソースとなっています。
+編集したい場合は、そのリポジトリに[issue を立て]()たり[pull request を送る]()ことができるほか、ページの最下部にある`GitHubでこのページを編集`というボタンをクリックして直接編集することもできます。

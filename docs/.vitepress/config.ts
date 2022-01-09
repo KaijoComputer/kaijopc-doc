@@ -1,4 +1,5 @@
 import { defineConfig } from "vitepress"
+import "dotenv/config"
 
 export default defineConfig({
     lang: "ja-JP",
@@ -13,8 +14,16 @@ export default defineConfig({
         sidebar: {
             "/introduction/": [
                 {
+                    text: "ようこそ！",
+                    link: "/introduction/",
+                },
+                {
                     text: "プログラミング",
                     link: "/introduction/programming",
+                },
+                {
+                    text: "このサイトについて",
+                    link: "/introduction/site",
                 },
             ],
         },
@@ -32,11 +41,10 @@ export default defineConfig({
         repo: "KaijoComputer/kaijopc-doc",
         docsBranch: "main",
         lastUpdated: "最終更新",
-        logo: "/full-logo.svg",
+        logo: "/logo/full-logo.svg",
         algolia: {
-            apiKey: "9081e97c2ab8105bf5f3c5fb1e869485",
+            apiKey: process.env.ALGOLIA_API_KEY,
             indexName: "page",
-            // placeholder: "",
         },
     },
 })
