@@ -1,60 +1,19 @@
 ---
 home: true
 
-heroImage: /logo.png
-heroAlt: Logo image
-heroText: Hero Title
-tagline: Hero subtitle
-actionText: Get Started
-actionLink: /guide/
+heroImage: /logo.webp
+heroAlt: 海城コンピューター部公式ドキュメント
+heroText: 海城コンピューター部公式ドキュメント
+tagline: 部員向けの解説書
+actionText: 始める
+actionLink: /introduction/
 features:
-    - title: Simplicity First
-      details: Minimal setup with markdown-centered project structure helps you focus on writing.
-    - title: Vue-Powered
-      details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
-    - title: Performant
-      details: VitePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-footer: MIT Licensed | Copyright © 2019-present Evan You
+    - title: 先人の叡智の集結
+      details: 過去の先輩の遺したノウハウ的な何かが集められています
+    - title: オープンソース
+      details: GitHubで公開されているので誰でも閲覧、編集ができます
+    - title: Viteベースの高速なビルド
+      details: Viteを使用しているのでビルドが高速、制作に支障が出ません
+
+footer: MIT Licensed | Copyright © 2022 Kaijo Computer Club
 ---
-
-# Hello Kaijo Computer Club! :tada:
-
-## これは h2
-
-### これは h3
-
-**Bold なテキスト**
-
-通常テキスト
-
-```js
-// example.js
-
-const hoge = () => {
-    console.log("これはコードブロック")
-}
-```
-
-::: tip
-This is a tip
-:::
-
-::: info
-This is an info box
-:::
-
-## H2 だよ
-
-::: warning
-This is a warning
-:::
-
-::: danger
-This is a dangerous warning
-:::
-
-::: details
-ほぼ Zenn と同じやつ
-:::
-
-## 下の方の h2

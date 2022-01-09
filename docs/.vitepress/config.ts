@@ -13,14 +13,19 @@ export default defineConfig({
             "/": "auto",
         },
         nav: [
+            { text: "プログラミング", link: "/programming/" },
+            { text: "3DCG", link: "/3dcg/" },
+            { text: "音楽制作", link: "/music/" },
             {
-                text: "Web Site",
-                link: "/",
+                text: "リリースノート",
+                link: "https://github.com/KaijoComputer/kaijopc-doc/main/CHANGELOG.md",
             },
         ],
         editLinks: true,
         editLinkText: "GitHubでこのページを編集",
         repo: "KaijoComputer/kaijopc-doc",
         docsBranch: "main",
+        lastUpdated: "最終更新",
+        logo: "/logo.webp",
     },
 })
