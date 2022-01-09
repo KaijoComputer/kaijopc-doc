@@ -1,0 +1,14 @@
+{
+  "name": "kaijopc-doc",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "markdown-it-code-copy": "^0.1.1",
+    "vitepress": "^0.21.4"
+  }
+}
