@@ -64,7 +64,7 @@ export default defineConfig({
             { text: "3DCG", link: "/3dcg/" },
             { text: "音楽制作", link: "/music/" },
             {
-                text: "kaijopc.tk",
+                text: "ホームページ",
                 link: "https://kaijopc.tk",
             },
         ],
