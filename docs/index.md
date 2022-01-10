@@ -17,3 +17,21 @@ features:
 
 footer: MIT Licensed | Copyright © 2022 Kaijo Computer Club
 ---
+
+# プログラミング/3DCG/音楽制作についての解説
+
+コンピューター部ではこの 3 つのカテゴリ分かれて活動をしているのでこのサイトでも同じように区分しています。別に複数のカテゴリの活動をやっても構いません。
+
+## カテゴリ別の紹介
+
+### プログラミング
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+### 3DCG
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+### 音楽制作
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.

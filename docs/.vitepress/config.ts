@@ -47,4 +47,9 @@ export default defineConfig({
             indexName: "page",
         },
     },
+    head: [
+        ["link", { rel: "icon", href: "/logo/favicon" }],
+        ["meta", { name: "og:title", content: "海城コンピューター部公式ドキュメント" }],
+        ["meta", { name: "og:description", content: "海城コンピューター部の部員向けドキュメント" }],
+    ],
 })
