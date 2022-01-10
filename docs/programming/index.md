@@ -8,9 +8,7 @@
 
 C++解説
 
-一時的に Python は非表示
-
-## [Python](/programming/python/)
+## [Python](/programming/py/)
 
 Python。Tensorflow とか。
 
