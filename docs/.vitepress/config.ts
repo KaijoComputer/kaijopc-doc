@@ -26,6 +26,38 @@ export default defineConfig({
                     link: "/introduction/site",
                 },
             ],
+            "/edit/": [
+                {
+                    text: "編集",
+                    link: "/edit/",
+                },
+                {
+                    text: "GitHubの使い方",
+                    link: "/edit/github/",
+                },
+                {
+                    text: "issueの使い方",
+                    link: "/edit/github/issue",
+                },
+                {
+                    text: "pull requestの使い方",
+                    link: "/edit/github/pr",
+                },
+            ],
+            "/programming/web/": [
+                {
+                    text: "Webサイト制作",
+                    link: "/programming/web/",
+                },
+                {
+                    text: "HTMLの基本",
+                    link: "/programming/web/html",
+                },
+                {
+                    text: "CSSの基本",
+                    link: "/programming/web/css",
+                },
+            ],
         },
         nav: [
             { text: "プログラミング", link: "/programming/" },
