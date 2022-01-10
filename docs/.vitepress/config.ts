@@ -64,8 +64,8 @@ export default defineConfig({
             { text: "3DCG", link: "/3dcg/" },
             { text: "音楽制作", link: "/music/" },
             {
-                text: "リリースノート",
-                link: "https://github.com/KaijoComputer/kaijopc-doc/main/CHANGELOG.md",
+                text: "kaijopc.tk",
+                link: "https://kaijopc.tk",
             },
         ],
         editLinks: true,
