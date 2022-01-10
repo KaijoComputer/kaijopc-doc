@@ -80,7 +80,7 @@ export default defineConfig({
         },
     },
     head: [
-        ["link", { rel: "icon", href: "/logo/favicon" }],
+        ["link", { rel: "image/x-icon", href: "/favicon" }],
         ["meta", { name: "og:title", content: "海城コンピューター部公式ドキュメント" }],
         ["meta", { name: "og:description", content: "海城コンピューター部の部員向けドキュメント" }],
     ],

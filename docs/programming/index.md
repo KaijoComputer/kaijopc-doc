@@ -1,8 +1,6 @@
 # プログラミング解説目次
 
-一時的に非表示
-
-<!-- ## プログラミングとは
+## プログラミングとは
 
 概念の説明。
 
@@ -10,9 +8,11 @@
 
 C++解説
 
-## [Python](/programming/python/)
+一時的に Python は非表示
 
-Python。Tensorflow とか。
+<!-- ## [Python](/programming/python/)
+
+Python。Tensorflow とか。 -->
 
 ## [アルゴリズム/競プロ](/programming/algorithm/)
 
@@ -20,4 +20,4 @@ Python。Tensorflow とか。
 
 ## [Web 制作](/programming/web/)
 
-Web 制作について解説してあるよ。 -->
+Web 制作について解説してあるよ。
