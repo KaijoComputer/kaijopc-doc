@@ -8,10 +8,12 @@
 
 ### [Wi-Fi に繋がらない](/help/trouble/windows/wifi)
 
-## [Mac](/help/trouble/mac/)
+## Mac
+
+### [ターミナルが開けない"不具合"](/help/trouble/mac/terminal)
 
 ### [署名が不正なアプリが実行できない](/help/trouble/mac/sign)
 
-### [DMG が解凍できない](/help/trouble/mac/dmg)
+### [DMG が解凍できない"不具合"](/help/trouble/mac/dmg)
 
-### [一部のサイトが開けない](/help/trouble/mac/site)
+### [一部のサイトが開けない"不具合"](/help/trouble/mac/site)

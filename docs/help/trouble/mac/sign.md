@@ -10,7 +10,7 @@ Mac には Gatekeeper というセキュリティシステムが存在します�
 この門番が怪しいアプリの実行を拒否して、ウイルスとかから Mac を守ってくれているのですね。
 
 そんなことはともかく、全然怪しくないアプリでも署名が不正なせいで実行できないアプリがあります。
-例えば、 [Blender]() や [Chromium](https://www.chromium.org/) などがあります。
+例えば、 [Blender](https://www.blender.org/) や [Chromium](https://www.chromium.org/) などがあります。
 これらを実行したいというときでも Gatekeeper は厳しく取り締まってくるので使うことができず、以下のような表示が出ます。
 
 ![Chromiumが起動できない様子](../../../assets/images/help/trouble/mac/sign/chromium-alert.png)
