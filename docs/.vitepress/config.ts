@@ -25,6 +25,10 @@ export default defineConfig({
                     text: "このサイトについて",
                     link: "/introduction/site",
                 },
+                {
+                    text: "ヘルプ",
+                    link: "/help/",
+                },
             ],
             "/edit/": [
                 {
