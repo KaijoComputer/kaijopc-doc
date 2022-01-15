@@ -3,7 +3,7 @@ import "dotenv/config"
 
 export default defineConfig({
     lang: "ja-JP",
-    title: "公式ドキュメント",
+    title: "ドキュメント",
     description: "海城コンピューター部の部員向けドキュメント",
     markdown: {
         config: (md) => {},
@@ -26,14 +26,46 @@ export default defineConfig({
                     link: "/introduction/site",
                 },
             ],
+            "/edit/": [
+                {
+                    text: "編集",
+                    link: "/edit/",
+                },
+                {
+                    text: "GitHubの使い方",
+                    link: "/edit/github/",
+                },
+                {
+                    text: "issueの使い方",
+                    link: "/edit/github/issue",
+                },
+                {
+                    text: "pull requestの使い方",
+                    link: "/edit/github/pr",
+                },
+            ],
+            "/programming/web/": [
+                {
+                    text: "Webサイト制作",
+                    link: "/programming/web/",
+                },
+                {
+                    text: "HTMLの基本",
+                    link: "/programming/web/html",
+                },
+                {
+                    text: "CSSの基本",
+                    link: "/programming/web/css",
+                },
+            ],
         },
         nav: [
             { text: "プログラミング", link: "/programming/" },
             { text: "3DCG", link: "/3dcg/" },
             { text: "音楽制作", link: "/music/" },
             {
-                text: "リリースノート",
-                link: "https://github.com/KaijoComputer/kaijopc-doc/main/CHANGELOG.md",
+                text: "ホームページ",
+                link: "https://kaijopc.tk",
             },
         ],
         editLinks: true,
@@ -47,4 +79,9 @@ export default defineConfig({
             indexName: "page",
         },
     },
+    head: [
+        ["link", { rel: "image/x-icon", href: "/favicon" }],
+        ["meta", { name: "og:title", content: "海城コンピューター部公式ドキュメント" }],
+        ["meta", { name: "og:description", content: "海城コンピューター部の部員向けドキュメント" }],
+    ],
 })
