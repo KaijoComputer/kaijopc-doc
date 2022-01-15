@@ -1,3 +1,7 @@
+---
+description: 部の Windows PC や配布 MacBook のトラブルシューティングです。
+---
+
 # トラブルシューティング
 
 部の Windows PC や配布 MacBook のトラブルシューティングです。
