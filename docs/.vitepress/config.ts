@@ -7,7 +7,7 @@ export default defineConfig({
     description: "海城コンピューター部の部員向けドキュメント",
     markdown: {
         config: (md) => {},
-        lineNumbers: true,
+        // lineNumbers: true,
     },
     themeConfig: {
         docsDir: "docs",
@@ -24,6 +24,10 @@ export default defineConfig({
                 {
                     text: "このサイトについて",
                     link: "/introduction/site",
+                },
+                {
+                    text: "ヘルプ",
+                    link: "/help/",
                 },
             ],
             "/edit/": [
@@ -56,6 +60,24 @@ export default defineConfig({
                 {
                     text: "CSSの基本",
                     link: "/programming/web/css",
+                },
+            ],
+            "/help/trouble/mac/": [
+                {
+                    text: 'ターミナルが開けない"不具合"',
+                    link: "/help/trouble/mac/terminal",
+                },
+                {
+                    text: "署名が不正なアプリを実行したい",
+                    link: "/help/trouble/mac/sign",
+                },
+                {
+                    text: 'DMGが解凍できない"不具合"',
+                    link: "/help/trouble/mac/dmg",
+                },
+                {
+                    text: '一部のサイトが開けない"不具合"',
+                    link: "/help/trouble/mac/site",
                 },
             ],
         },
