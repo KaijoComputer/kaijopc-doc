@@ -17,7 +17,7 @@ Mac には Gatekeeper というセキュリティシステムが存在します�
 例えば、 [Blender](https://www.blender.org/) や [Chromium](https://www.chromium.org/) などがあります。
 これらを実行したいというときでも Gatekeeper は厳しく取り締まってくるので使うことができず、以下のような表示が出ます。
 
-![Chromiumが起動できない様子](../../../assets/images/help/trouble/mac/sign/chromium-alert.png)
+<img width="400px" src="../../../assets/images/help/trouble/mac/sign/chromium-alert.png">
 
 これでは困りますね。なので、この Gatekeeper を回避します。
 
@@ -27,29 +27,27 @@ Mac には Gatekeeper というセキュリティシステムが存在します�
 開きたいアプリが `~/Downloads/Chromium/Chromium.app` の場合、
 
 ```bash
-xattr -d com.apple.quarantine ~/Downloads/Chromium/Chromium.app
+xattr -drs com.apple.quarantine ~/Downloads/Chromium/Chromium.app
 ```
 
 これを実行すると、署名が不正なアプリでも実行できるようになります。
 
 ### 原理
 
-Gatekeeper は、ファイルやフォルダの `com.apple.quarantine` 属性をみて、その署名が**無効かどうか**を判断します。
+Gatekeeper は、ファイルやフォルダの `com.apple.quarantine` 属性をみて、その署名が無効かどうかを判断します。
 
 `xattr`コマンドはファイルなどの属性を操作できるコマンドで、`-d` オプションを付けると属性を削除できます。
 
 なので、上のコマンドを実行すると、対象ファイルの `com.apple.quarantine` 属性が削除され、署名が無効ではないことになります。
 
-### ダウンロード
+### エイリアス設定
 
-コマンドが長ったらしくて覚えられない！という人は以下のレポから簡単にしたやつをダウンロードして、alias 設定して使ってください。
-
-[br1be(p1atdev) - GitHub ](https://github.com/p1atdev/br1be)
+以下のように alias を設定すると楽になります。
 
 alias 設定の例
 
 ```bash
-alias bribe="~/Documents/br1be/br1be.sh"
+alias bribe="xattr -drs $1"
 ```
 
 使用例

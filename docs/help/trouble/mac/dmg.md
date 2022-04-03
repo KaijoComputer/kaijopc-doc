@@ -17,7 +17,7 @@ description: DMG を解凍できない"不具合"の解決法
 ダウンロードは[公式サイト](https://sevenzip.osdn.jp/download.html)や Homebrew のどちらでも構いませんが、公式サイトからのダウンロードの場合、署名が不正なので [署名が不正なアプリを実行する](/help/trouble/mac/sign)を参考にして修正が必要です。
 
 7zip を入手したら以下のコマンドを実行します。
-この例では 7zip コマンドは`7zz`とし、`~/Downloads/Blender.dmg`を解凍しています。
+この例では 7zip コマンドは `7zz` とし、`~/Downloads/Blender.dmg` を解凍しています。
 
 ```bash
 7zz x ~/Downloads/Blender.dmg -o/Users/$(whoami)/Downloads/
@@ -42,6 +42,7 @@ find ~/Downloads/Blender/Blender.app -type f -exec chmod 777 \{\} \; # まとめ
 
 Electron 系のアプリは次の項目を参考にして修正してください。Electron でないのに開けないアプリはもうお手上げなので、解決法 2 を参考にしてください。
 
+<!--
 ### 起動できないアプリの修正 - Electron
 
 次のレポジトリをダウンロードして、README に従って`Electron Framework.framework.zip`を解凍してください。
@@ -53,8 +54,25 @@ Electron 系のアプリは次の項目を参考にして修正してくださ�
 `~/Downloads/Descript/Descript.app/Contents/Frameworks/Electron Framework.framework`に Electron があるので、これを置き換えてください。
 
 ![DescriptのElectronの場所](/assets/images/help/trouble/mac/dmg/descript-electron.png)
+-->
 
-## 簡易実行スクリプト DMGer
+## エイリアス設定
+
+エイリアスを設定すると何度も長いコマンドを入力せずに済むので楽になります。
+
+```bash
+# ~/.zprofile
+
+alias undmg="7zz x $1 -o/Users/$(whoami)/Downloads/"
+```
+
+使用例
+
+```bash
+undmg ~/Downloads/Blender.dmg
+```
+
+## 簡易実行スクリプト DMGer (非推奨)
 
 この解凍処理が簡単にできるようにしたものを作ったので参照してみてください。
 
